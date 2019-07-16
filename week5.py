@@ -1,4 +1,4 @@
-#Chapter 11 Try its:
+#Chapter 10 Try its:
 
 #N[SEM='Population'] -> 'populations'
 #CardN[SEM='1000'] -> '1,000,000' 

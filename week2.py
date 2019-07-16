@@ -42,3 +42,13 @@ def sortSentence(string):
 	for w in wordList:
 		print(w+' '+ str(multiCheck(wordList.index(w),wordList,1)))
 #4.19
+def sortedDis(list, mainSyn):
+    #returns closest first
+    distanceList= []
+    for syn in list:
+        distanceList.append(syn.shortest_path_distance(mainSyn))
+    dictionary = dict(zip(distanceList, list))
+    returnList=[]
+    for key in sorted(dictionary):
+        returnList.append(dictionary.get(key))
+    return returnList
