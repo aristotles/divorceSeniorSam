@@ -10,6 +10,7 @@ for string in sent:
 def vocab_size(text):
     print(len(set(text)))
 #1.28
+print("hello world")
 def percent(word, text):
     print(100 * text.count(word) / len(text))
 #2.17
