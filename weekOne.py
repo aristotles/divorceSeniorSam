@@ -7,6 +7,7 @@ sent=['she', 'sells', 'sea', 'shells', 'by', 'the', 'sea', 'shore']
 for string in sent:
     if len(string)>3or string[:2]=='sh':print(string)
 #1.27
+
 def vocab_size(text):
     print(len(set(text)))
 #1.28
